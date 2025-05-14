@@ -87,7 +87,7 @@ function initFormHandler() {
         document.querySelector('main').appendChild(recipeCard);
         // B9. TODO - Get the recipes array from localStorage, add this new recipe to it, and
         //            then save the recipes array back to localStorage
-        let recipes = getRecipesFromStorage()
+        let recipes = getRecipesFromStorage();
         recipes.push(recipeObject);
         saveRecipesToStorage(recipes);
     });
